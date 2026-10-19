@@ -1,0 +1,237 @@
+{
+  "document": {
+    "text": "Mira waited beside the dark lighthouse. The last boat had disappeared into the fog.\n\nA sharp knock struck the door. Mira jumped; behind the wood, her brother laughed at his own prank.\n\nHe placed their mother’s small lantern on the table. Its flame was only a memory now.\n\nTogether they opened the shutters. In the distance, the neighbours lit their lamps one by one.",
+    "language": "en",
+    "title": "The lantern returns",
+    "sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+    "offset_unit": "unicode_codepoints",
+    "segments": [
+      {
+        "id": "p1",
+        "start": 0,
+        "end": 83,
+        "text": "Mira waited beside the dark lighthouse. The last boat had disappeared into the fog."
+      },
+      {
+        "id": "p2",
+        "start": 85,
+        "end": 183,
+        "text": "A sharp knock struck the door. Mira jumped; behind the wood, her brother laughed at his own prank."
+      },
+      {
+        "id": "p3",
+        "start": 185,
+        "end": 270,
+        "text": "He placed their mother’s small lantern on the table. Its flame was only a memory now."
+      },
+      {
+        "id": "p4",
+        "start": 272,
+        "end": 366,
+        "text": "Together they opened the shutters. In the distance, the neighbours lit their lamps one by one."
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p1",
+      "perspective": "text",
+      "observer": "fixture-text",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.7,
+        "sadness": 0.3,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p2",
+      "perspective": "text",
+      "observer": "fixture-text",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.1,
+        "fear": 0.8,
+        "sadness": 0,
+        "anger": 0.1
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p3",
+      "perspective": "text",
+      "observer": "fixture-text",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.1,
+        "sadness": 0.9,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p4",
+      "perspective": "text",
+      "observer": "fixture-text",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.7,
+        "fear": 0.1,
+        "sadness": 0.3,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p1",
+      "perspective": "character",
+      "observer": "fixture-character",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.9,
+        "sadness": 0.2,
+        "anger": 0
+      },
+      "target": "Mira"
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p2",
+      "perspective": "character",
+      "observer": "fixture-character",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 1,
+        "sadness": 0,
+        "anger": 0.2
+      },
+      "target": "Mira"
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p3",
+      "perspective": "character",
+      "observer": "fixture-character",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.1,
+        "fear": 0.1,
+        "sadness": 0.9,
+        "anger": 0
+      },
+      "target": "Mira"
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p4",
+      "perspective": "character",
+      "observer": "fixture-character",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.8,
+        "fear": 0,
+        "sadness": 0.2,
+        "anger": 0
+      },
+      "target": "Mira"
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p1",
+      "perspective": "reader",
+      "observer": "reader-A",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.6,
+        "sadness": 0.2,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p2",
+      "perspective": "reader",
+      "observer": "reader-A",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.9,
+        "fear": 0,
+        "sadness": 0,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p3",
+      "perspective": "reader",
+      "observer": "reader-A",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.1,
+        "fear": 0,
+        "sadness": 0.8,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p4",
+      "perspective": "reader",
+      "observer": "reader-A",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.8,
+        "fear": 0,
+        "sadness": 0.2,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p1",
+      "perspective": "reader",
+      "observer": "reader-B",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.8,
+        "sadness": 0.3,
+        "anger": 0
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p2",
+      "perspective": "reader",
+      "observer": "reader-B",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0,
+        "fear": 0.9,
+        "sadness": 0,
+        "anger": 0.8
+      }
+    },
+    {
+      "source_sha256": "1d0fdf333e25dc979a654805a80ec373e57837ad79980285997d0428cf507781",
+      "segment": "p3",
+      "perspective": "reader",
+      "observer": "reader-B",
+      "method": "synthetic_fixture",
+      "scores": {
+        "joy": 0.1,
+        "fear": 0.1,
+        "sadness": 0.7,
+        "anger": 0
+      }
+    }
+  ],
+  "synthetic": true
+}

@@ -1,0 +1,3 @@
+recursive-include emotion_lens/web *
+recursive-include emotion_lens/examples *
+include README*.md LICENSE
