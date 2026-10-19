@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Emotion Lens Lab</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">EMOTION / LENS LAB</a>
+      <nav aria-label="Language">
+        <a href="?lang=fr">FR</a><a href="?lang=en">EN</a><a href="?lang=es">ES</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow" data-i18n="eyebrow"></p>
+        <h1 data-i18n="title"></h1>
+        <p class="lede" data-i18n="lede"></p>
+      </section>
+      <section class="workspace">
+        <aside>
+          <span class="number">01 /</span>
+          <h2 data-i18n="notebook"></h2>
+          <label class="field" for="input" data-i18n="input"></label><textarea id="input"></textarea
+          ><label class="field" for="document-language" data-i18n="doclang"></label
+          ><select id="document-language">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="es">Español</option></select
+          ><button id="replace" data-i18n="replace"></button
+          ><button id="demo" class="secondary" data-i18n="demo"></button>
+          <p class="hint" data-i18n="replaceWarning"></p>
+          <label for="import" data-i18n="import"></label
+          ><input id="import" type="file" accept="application/json,.json" />
+          <h3 data-i18n="add"></h3>
+          <label for="observer" data-i18n="observer"></label
+          ><input id="observer" type="text" value="my-reading" /><label
+            for="perspective"
+            data-i18n="perspective"
+          ></label
+          ><select id="perspective">
+            <option value="reader" data-i18n="reader"></option>
+            <option value="text" data-i18n="text"></option>
+            <option value="character" data-i18n="character"></option></select
+          ><label for="target" data-i18n="target"></label
+          ><input id="target" type="text" value="Mira" />
+          <p id="selected"></p>
+          <div id="scores"></div>
+          <button id="save" data-i18n="save"></button>
+          <p id="status" role="status"></p>
+          <p class="hint" data-i18n="local"></p>
+        </aside>
+        <article>
+          <div class="section-head">
+            <div>
+              <span class="number">02 /</span>
+              <h2 id="story-title"></h2>
+            </div>
+            <span class="badge" data-i18n="provenance"></span>
+          </div>
+          <div class="metrics">
+            <div><strong id="readers">—</strong><span data-i18n="readers"></span></div>
+            <div><strong id="coverage">—</strong><span data-i18n="coverage"></span></div>
+            <div><strong id="disagreement">—</strong><span data-i18n="disagreement"></span></div>
+          </div>
+          <p class="hint" id="fixture"></p>
+          <div class="chart" id="chart"></div>
+          <p class="hint" data-i18n="gaps"></p>
+          <div id="passages"></div>
+          <div class="actions">
+            <button id="markdown" class="secondary" data-i18n="markdown"></button
+            ><button id="svg" class="secondary" data-i18n="svg"></button
+            ><button id="json" class="secondary" data-i18n="json"></button>
+          </div>
+          <code id="source-hash"></code>
+        </article>
+      </section>
+      <footer>
+        <p data-i18n="limits"></p>
+        <a href="https://github.com/gbesse/emotion-lens-lab">GitHub ↗</a>
+      </footer>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
